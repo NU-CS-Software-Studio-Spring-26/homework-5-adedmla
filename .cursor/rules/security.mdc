@@ -1,0 +1,13 @@
+---
+description: Security rules for the sample todo app
+alwaysApply: true
+---
+
+# Security
+
+- Never write, log, or echo secrets, API keys, or production credentials. Do not read `.env`, `config/master.key`, or credential key files.
+- Never use `eval` on user input or request parameters.
+- Never call `html_safe` or `raw` on untrusted or user-supplied strings.
+- Use ActiveRecord / parameterized queries only — never interpolate user input into SQL strings.
+- Do not disable CSRF protection, strong parameters, or mass-assignment guards.
+- Do not add `skip_before_action :verify_authenticity_token` without explicit human approval.

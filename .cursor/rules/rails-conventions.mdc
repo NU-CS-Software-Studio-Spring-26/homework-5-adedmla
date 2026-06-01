@@ -1,0 +1,14 @@
+---
+description: Rails 8 conventions for the sample todo app
+alwaysApply: true
+---
+
+# Rails conventions (todo app)
+
+- Prefer Turbo Streams (`format.turbo_stream` + `*.turbo_stream.erb`) over custom JavaScript for updating list rows on the todos index.
+- Keep migrations reversible (`change` with reversible blocks when needed).
+- Use strong parameters (`params.expect` / `permit`) — never mass-assign from raw `params`.
+- Generate boilerplate with `bin/rails generate` when adding models, controllers, or migrations.
+- Stay within the todo domain: only `Todo` and `TodosController` unless the task explicitly requires otherwise.
+- Run `bin/rails test` after controller or view changes; add integration tests for new HTTP behavior.
+- Match existing scaffold patterns: HTML redirects with `status: :see_other` where the codebase already does.

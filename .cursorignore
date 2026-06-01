@@ -1,0 +1,13 @@
+.env
+.env.*
+config/master.key
+config/credentials/*.key
+config/credentials.yml.enc
+.kamal/secrets
+tmp/
+log/
+storage/
+node_modules/
+vendor/bundle/
+coverage/
+public/assets/
