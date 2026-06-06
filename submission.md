@@ -115,7 +115,7 @@ Claim: Turbo Stream responses use MIME type `text/vnd.turbo-stream.html`. Checke
 
 ### Pull request
 
-**PR URL:** _(paste after you create the PR, e.g. https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-adedmla/pull/1)_
+**PR URL:** https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-adedmla/pull/1
 
 ---
 
